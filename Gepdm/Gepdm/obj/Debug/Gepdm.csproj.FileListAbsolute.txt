@@ -14,3 +14,12 @@ C:\Users\user06\Desktop\C#\Gepdm\Gepdm\obj\Debug\Gepdm.exe
 C:\Users\user06\Desktop\C#\Gepdm\Gepdm\obj\Debug\Gepdm.pdb
 C:\Users\user06\Desktop\C#\Gepdm\Gepdm\obj\Debug\Gepdm.ConsoleImport.resources
 C:\Users\user06\Desktop\C#\Gepdm\Gepdm\obj\Debug\Gepdm.csproj.GenerateResource.cache
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Debug\Gepdm.csprojAssemblyReference.cache
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Debug\Gepdm.ConsoleImport.resources
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Debug\Gepdm.csproj.GenerateResource.cache
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Debug\Gepdm.csproj.CoreCompileInputs.cache
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Debug\Gepdm.exe
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Debug\Gepdm.pdb
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\Gepdm.exe.config
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\Gepdm.exe
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\Gepdm.pdb

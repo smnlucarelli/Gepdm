@@ -21,9 +21,10 @@ namespace Gepdm
             bElabora = false;
 
             var opensection = new OpenSection();
+            var pdm = opensection.SqlQuery();
 
-            
-            if (opensection.SqlConn())
+
+            if (opensection.SqlConn().State == System.Data.ConnectionState.Open)
             {
                 bElabora = true;
             }

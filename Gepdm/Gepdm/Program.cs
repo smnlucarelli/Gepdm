@@ -16,8 +16,6 @@ namespace Gepdm
         {
             string sLog = "INIZIO ELABORAZIONE";
             Logger logger = new Logger();
-            ConsoleImport consoleImport = new ConsoleImport();
-            consoleImport.
             logger.Log(sLog);
 
             var fn = new Function();

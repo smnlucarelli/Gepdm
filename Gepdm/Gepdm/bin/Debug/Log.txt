@@ -26,3 +26,24 @@ Log Entry | 14:00:47 mercoledì 5 agosto 2020: INIZIO ELABORAZIONE
 Log Entry | 14:00:47 mercoledì 5 agosto 2020: Inizio lettura parametri
 Log Entry | 14:00:47 mercoledì 5 agosto 2020: Fine lettura parametri
 Log Entry | 14:00:47 mercoledì 5 agosto 2020: FINE ELABORAZIONE TERMINATA CON SUCCESSO
+Log Entry | 17:22:29 giovedì 6 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 17:22:29 giovedì 6 agosto 2020: Inizio lettura parametri
+Log Entry | 17:22:30 giovedì 6 agosto 2020: Fine lettura parametri
+Log Entry | 17:22:30 giovedì 6 agosto 2020: FINE ELABORAZIONE TERMINATA CON SUCCESSO
+Log Entry | 17:23:04 giovedì 6 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 17:23:18 giovedì 6 agosto 2020: FINE ELABORAZIONE NON TERMINATA CON SUCCESSO - ERRORE
+Log Entry | 17:24:18 giovedì 6 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 17:24:20 giovedì 6 agosto 2020: Inizio lettura parametri
+Log Entry | 17:24:21 giovedì 6 agosto 2020: Fine lettura parametri
+Log Entry | 18:00:31 giovedì 6 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 18:00:41 giovedì 6 agosto 2020: Inizio lettura parametri
+Log Entry | 18:00:41 giovedì 6 agosto 2020: Fine lettura parametri
+Log Entry | 18:02:26 giovedì 6 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 18:02:36 giovedì 6 agosto 2020: Inizio lettura parametri
+Log Entry | 18:02:36 giovedì 6 agosto 2020: Fine lettura parametri
+Log Entry | 18:03:48 giovedì 6 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 18:03:53 giovedì 6 agosto 2020: Inizio lettura parametri
+Log Entry | 18:03:53 giovedì 6 agosto 2020: Fine lettura parametri
+Log Entry | 18:05:08 giovedì 6 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 18:05:12 giovedì 6 agosto 2020: Inizio lettura parametri
+Log Entry | 18:05:12 giovedì 6 agosto 2020: Fine lettura parametri
