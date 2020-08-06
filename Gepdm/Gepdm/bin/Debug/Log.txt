@@ -1,0 +1,28 @@
+Log Entry | 12:08:13 venerdì 31 luglio 2020: INIZIO ELABORAZIONE
+Log Entry | 12:08:13 venerdì 31 luglio 2020: Inizio lettura parametri
+Log Entry | 12:08:13 venerdì 31 luglio 2020: Fine lettura parametri
+Log Entry | 12:08:13 venerdì 31 luglio 2020: FINE ELABORAZIONE TERMINATA CON SUCCESSO
+Log Entry | 13:46:28 mercoledì 5 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 13:46:28 mercoledì 5 agosto 2020: Inizio lettura parametri
+Log Entry | 13:46:28 mercoledì 5 agosto 2020: Fine lettura parametri
+Log Entry | 13:46:28 mercoledì 5 agosto 2020: FINE ELABORAZIONE TERMINATA CON SUCCESSO
+Log Entry | 13:51:08 mercoledì 5 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 13:51:08 mercoledì 5 agosto 2020: Inizio lettura parametri
+Log Entry | 13:51:08 mercoledì 5 agosto 2020: Fine lettura parametri
+Log Entry | 13:51:09 mercoledì 5 agosto 2020: FINE ELABORAZIONE TERMINATA CON SUCCESSO
+Log Entry | 13:51:20 mercoledì 5 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 13:51:20 mercoledì 5 agosto 2020: Inizio lettura parametri
+Log Entry | 13:51:20 mercoledì 5 agosto 2020: Fine lettura parametri
+Log Entry | 13:51:20 mercoledì 5 agosto 2020: FINE ELABORAZIONE TERMINATA CON SUCCESSO
+Log Entry | 13:54:50 mercoledì 5 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 13:54:51 mercoledì 5 agosto 2020: Inizio lettura parametri
+Log Entry | 13:54:51 mercoledì 5 agosto 2020: Fine lettura parametri
+Log Entry | 13:54:51 mercoledì 5 agosto 2020: FINE ELABORAZIONE TERMINATA CON SUCCESSO
+Log Entry | 13:59:00 mercoledì 5 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 13:59:00 mercoledì 5 agosto 2020: Inizio lettura parametri
+Log Entry | 13:59:00 mercoledì 5 agosto 2020: Fine lettura parametri
+Log Entry | 13:59:00 mercoledì 5 agosto 2020: FINE ELABORAZIONE TERMINATA CON SUCCESSO
+Log Entry | 14:00:47 mercoledì 5 agosto 2020: INIZIO ELABORAZIONE
+Log Entry | 14:00:47 mercoledì 5 agosto 2020: Inizio lettura parametri
+Log Entry | 14:00:47 mercoledì 5 agosto 2020: Fine lettura parametri
+Log Entry | 14:00:47 mercoledì 5 agosto 2020: FINE ELABORAZIONE TERMINATA CON SUCCESSO

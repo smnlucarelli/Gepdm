@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Config>
+  <DB>
+    <DB_DATASOURCE>NB06</DB_DATASOURCE>
+    <DB_CATALOG>Produzione</DB_CATALOG>
+    <DB_USER>sa<DB_PSW>9999</DB_PSW></DB_USER>
+  </DB>
+</Config>
