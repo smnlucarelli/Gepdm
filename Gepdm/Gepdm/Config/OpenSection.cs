@@ -42,6 +42,10 @@ namespace Gepdm.Config
 
         public List<tPdmAnagart> SqlQuery ()
         {
+            sLog = "Inizio lettura dati database";
+            logger = new Logger();
+            logger.Log(sLog);
+
             List<tPdmAnagart> pdmart = null;
             DataTable dt = null;
 
@@ -66,8 +70,11 @@ namespace Gepdm.Config
                 }
             }
 
+            sLog = "Fine lettura dati database";
+            logger = new Logger();
+            logger.Log(sLog);
+
             return pdmart;
-            
         }
 
         private tPdmAnagart GetPdmAnagart(DataRow dr)

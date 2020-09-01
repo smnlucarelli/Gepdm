@@ -48,6 +48,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\Validate.cs" />
     <Compile Include="Config\createXml.cs" />
     <Compile Include="Config\InitSection.cs" />
     <Compile Include="Config\OpenSection.cs" />

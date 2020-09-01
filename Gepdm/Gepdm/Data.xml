@@ -4,13 +4,13 @@
     	<DB_Datasource>NB06\SQLSTD2017</DB_Datasource>
     	<DB_Catalog>Alypdm</DB_Catalog>
     	<DB_User>sa</DB_User>
-	<DB_Psw>9999</DB_Psw>
+	    <DB_Psw>9999</DB_Psw>
   </DB>
   <DBGES>
     	<DBGES_Datasource>NB06</DBGES_Datasource>
     	<DBGES_Catalog>Produzione</DBGES_Catalog>
     	<DBGES_User>sa</DBGES_User>
-	<DBGES_Psw>9999</DBGES_Psw>
+	    <DBGES_Psw>9999</DBGES_Psw>
   </DBGES>
   <PARAMETER>
   </PARAMETER>
