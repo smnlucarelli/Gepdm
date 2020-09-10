@@ -1,0 +1,15 @@
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Release\Gepdm.exe.config
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Release\Gepdm.exe
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Release\Gepdm.pdb
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Release\EntityFramework.dll
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Release\EntityFramework.xml
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Release\it\EntityFramework.resources.dll
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Release\Gepdm.csprojAssemblyReference.cache
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Release\Gepdm.ConsoleImport.resources
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Release\Gepdm.csproj.GenerateResource.cache
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Release\Gepdm.csproj.CoreCompileInputs.cache
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Release\Gepdm.csproj.CopyComplete
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Release\Gepdm.exe
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Release\Gepdm.pdb

@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -22,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,13 +33,25 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>processing_settings_icon_152071.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,31 +62,77 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\GetAnagArt.cs" />
     <Compile Include="Class\Validate.cs" />
     <Compile Include="Config\createXml.cs" />
     <Compile Include="Config\InitSection.cs" />
-    <Compile Include="Config\OpenSection.cs" />
+    <Compile Include="Class\GetIdExport.cs" />
     <Compile Include="ConsoleImport.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ConsoleImport.Designer.cs">
       <DependentUpon>ConsoleImport.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controllo.cs" />
+    <Compile Include="Data\AlypdmModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlypdmModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AlypdmModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlypdmModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AlypdmModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlypdmModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\IDEXPORTVAL.cs" />
+    <Compile Include="Data\PDMT_ANAGART.cs">
+      <DependentUpon>AlypdmModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\PDMT_DIBA.cs">
+      <DependentUpon>AlypdmModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Data\tPdmAnagart.cs" />
     <Compile Include="Data\tPdmDiba.cs" />
-    <Compile Include="Function.cs" />
+    <Compile Include="Class\Function.cs" />
     <Compile Include="Log\fwLog.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Class\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <EntityDeploy Include="Data\AlypdmModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AlypdmModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Data\AlypdmModel.edmx.diagram">
+      <DependentUpon>AlypdmModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ConsoleImport.resx">
       <DependentUpon>ConsoleImport.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\AlypdmModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AlypdmModel.Context.cs</LastGenOutput>
+      <DependentUpon>AlypdmModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Data\AlypdmModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AlypdmModel.edmx</DependentUpon>
+      <LastGenOutput>AlypdmModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="processing_settings_icon_152071.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="AlypdmModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="PDMT_ANAGART">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDEXPORT" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CODART" Type="char" MaxLength="25" Nullable="false" />
+          <Property Name="DESCART" Type="varchar" MaxLength="72" Nullable="false" />
+          <Property Name="DESCARTEST" Type="varchar" MaxLength="1672" />
+          <Property Name="UM1" Type="char" MaxLength="3" Nullable="false" />
+          <Property Name="CODFAM" Type="char" MaxLength="4" />
+          <Property Name="DESCFAM" Type="varchar" MaxLength="30" />
+          <Property Name="CODSFAM" Type="char" MaxLength="4" />
+          <Property Name="DESCSFAM" Type="varchar" MaxLength="30" />
+          <Property Name="CODGRUPPO" Type="char" MaxLength="4" />
+          <Property Name="DESCGRUPPO" Type="varchar" MaxLength="30" />
+          <Property Name="CODSGRUPPO" Type="char" MaxLength="4" />
+          <Property Name="DESCSGRUPPO" Type="varchar" MaxLength="30" />
+          <Property Name="CODPROV" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="CODTIPOPROD" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="CODREP" Type="char" MaxLength="5" />
+          <Property Name="USEREXPORT" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="FLGIMPORT" Type="int" />
+          <Property Name="FLGVALIDATE" Type="int" />
+        </EntityType>
+        <EntityType Name="PDMT_DIBA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDEXPORT" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CODPROG" Type="char" MaxLength="25" Nullable="false" />
+          <Property Name="CODPADRE" Type="char" MaxLength="25" />
+          <Property Name="CODFIGLIO" Type="char" MaxLength="25" Nullable="false" />
+          <Property Name="QTA" Type="decimal" Precision="14" Scale="6" Nullable="false" />
+          <Property Name="TREEDEPTH" Type="nvarchar" MaxLength="25" Nullable="false" />
+          <Property Name="LEVEL" Type="nvarchar" MaxLength="25" Nullable="false" />
+          <Property Name="USEREXPORT" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="FLGIMPORT" Type="int" Nullable="false" />
+          <Property Name="FLGVALIDATE" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="AlypdmModelStoreContainer">
+          <EntitySet Name="PDMT_ANAGART" EntityType="Self.PDMT_ANAGART" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PDMT_DIBA" EntityType="Self.PDMT_DIBA" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AlypdmModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="PDMT_ANAGART">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDEXPORT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CODART" Type="String" MaxLength="25" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="DESCART" Type="String" MaxLength="72" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DESCARTEST" Type="String" MaxLength="1672" FixedLength="false" Unicode="false" />
+          <Property Name="UM1" Type="String" MaxLength="3" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="CODFAM" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="DESCFAM" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CODSFAM" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="DESCSFAM" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CODGRUPPO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="DESCGRUPPO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CODSGRUPPO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="DESCSGRUPPO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CODPROV" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="CODTIPOPROD" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="CODREP" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+          <Property Name="USEREXPORT" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FLGIMPORT" Type="Int32" />
+          <Property Name="FLGVALIDATE" Type="Int32" />
+        </EntityType>
+        <EntityType Name="PDMT_DIBA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDEXPORT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CODPROG" Type="String" MaxLength="25" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="CODPADRE" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+          <Property Name="CODFIGLIO" Type="String" MaxLength="25" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="QTA" Type="Decimal" Precision="14" Scale="6" Nullable="false" />
+          <Property Name="TREEDEPTH" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LEVEL" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="USEREXPORT" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FLGIMPORT" Type="Int32" Nullable="false" />
+          <Property Name="FLGVALIDATE" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="AlypdmEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="PDMT_ANAGART" EntityType="Self.PDMT_ANAGART" />
+          <EntitySet Name="PDMT_DIBA" EntityType="Self.PDMT_DIBA" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AlypdmModelStoreContainer" CdmEntityContainer="AlypdmEntities">
+          <EntitySetMapping Name="PDMT_ANAGART">
+            <EntityTypeMapping TypeName="AlypdmModel.PDMT_ANAGART">
+              <MappingFragment StoreEntitySet="PDMT_ANAGART">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IDEXPORT" ColumnName="IDEXPORT" />
+                <ScalarProperty Name="CODART" ColumnName="CODART" />
+                <ScalarProperty Name="DESCART" ColumnName="DESCART" />
+                <ScalarProperty Name="DESCARTEST" ColumnName="DESCARTEST" />
+                <ScalarProperty Name="UM1" ColumnName="UM1" />
+                <ScalarProperty Name="CODFAM" ColumnName="CODFAM" />
+                <ScalarProperty Name="DESCFAM" ColumnName="DESCFAM" />
+                <ScalarProperty Name="CODSFAM" ColumnName="CODSFAM" />
+                <ScalarProperty Name="DESCSFAM" ColumnName="DESCSFAM" />
+                <ScalarProperty Name="CODGRUPPO" ColumnName="CODGRUPPO" />
+                <ScalarProperty Name="DESCGRUPPO" ColumnName="DESCGRUPPO" />
+                <ScalarProperty Name="CODSGRUPPO" ColumnName="CODSGRUPPO" />
+                <ScalarProperty Name="DESCSGRUPPO" ColumnName="DESCSGRUPPO" />
+                <ScalarProperty Name="CODPROV" ColumnName="CODPROV" />
+                <ScalarProperty Name="CODTIPOPROD" ColumnName="CODTIPOPROD" />
+                <ScalarProperty Name="CODREP" ColumnName="CODREP" />
+                <ScalarProperty Name="USEREXPORT" ColumnName="USEREXPORT" />
+                <ScalarProperty Name="FLGIMPORT" ColumnName="FLGIMPORT" />
+                <ScalarProperty Name="FLGVALIDATE" ColumnName="FLGVALIDATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PDMT_DIBA">
+            <EntityTypeMapping TypeName="AlypdmModel.PDMT_DIBA">
+              <MappingFragment StoreEntitySet="PDMT_DIBA">
+                <ScalarProperty Name="FLGVALIDATE" ColumnName="FLGVALIDATE" />
+                <ScalarProperty Name="FLGIMPORT" ColumnName="FLGIMPORT" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IDEXPORT" ColumnName="IDEXPORT" />
+                <ScalarProperty Name="CODPROG" ColumnName="CODPROG" />
+                <ScalarProperty Name="CODPADRE" ColumnName="CODPADRE" />
+                <ScalarProperty Name="CODFIGLIO" ColumnName="CODFIGLIO" />
+                <ScalarProperty Name="QTA" ColumnName="QTA" />
+                <ScalarProperty Name="TREEDEPTH" ColumnName="TREEDEPTH" />
+                <ScalarProperty Name="LEVEL" ColumnName="LEVEL" />
+                <ScalarProperty Name="USEREXPORT" ColumnName="USEREXPORT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Nessuno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

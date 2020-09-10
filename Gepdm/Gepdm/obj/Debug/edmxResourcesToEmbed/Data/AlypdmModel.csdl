@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlypdmModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PDMT_ANAGART">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDEXPORT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CODART" Type="String" MaxLength="25" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="DESCART" Type="String" MaxLength="72" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DESCARTEST" Type="String" MaxLength="1672" FixedLength="false" Unicode="false" />
+    <Property Name="UM1" Type="String" MaxLength="3" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CODFAM" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="DESCFAM" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CODSFAM" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="DESCSFAM" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CODGRUPPO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="DESCGRUPPO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CODSGRUPPO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="DESCSGRUPPO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CODPROV" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CODTIPOPROD" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CODREP" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="USEREXPORT" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FLGIMPORT" Type="Int32" />
+    <Property Name="FLGVALIDATE" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PDMT_DIBA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDEXPORT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CODPROG" Type="String" MaxLength="25" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CODPADRE" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="CODFIGLIO" Type="String" MaxLength="25" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="QTA" Type="Decimal" Precision="14" Scale="6" Nullable="false" />
+    <Property Name="TREEDEPTH" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LEVEL" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="USEREXPORT" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="AlypdmEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PDMT_ANAGART" EntityType="Self.PDMT_ANAGART" />
+    <EntitySet Name="PDMT_DIBA" EntityType="Self.PDMT_DIBA" />
+  </EntityContainer>
+</Schema>

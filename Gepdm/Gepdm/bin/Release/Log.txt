@@ -1,0 +1,3 @@
+Log Entry | 18:15:02 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 18:15:02 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 18:15:03 mercoledì 9 settembre 2020: Fine lettura IDEXPORT

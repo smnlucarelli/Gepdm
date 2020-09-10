@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlypdmModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PDMT_ANAGART">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDEXPORT" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CODART" Type="char" MaxLength="25" Nullable="false" />
+    <Property Name="DESCART" Type="varchar" MaxLength="72" Nullable="false" />
+    <Property Name="DESCARTEST" Type="varchar" MaxLength="1672" />
+    <Property Name="UM1" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="CODFAM" Type="char" MaxLength="4" />
+    <Property Name="DESCFAM" Type="varchar" MaxLength="30" />
+    <Property Name="CODSFAM" Type="char" MaxLength="4" />
+    <Property Name="DESCSFAM" Type="varchar" MaxLength="30" />
+    <Property Name="CODGRUPPO" Type="char" MaxLength="4" />
+    <Property Name="DESCGRUPPO" Type="varchar" MaxLength="30" />
+    <Property Name="CODSGRUPPO" Type="char" MaxLength="4" />
+    <Property Name="DESCSGRUPPO" Type="varchar" MaxLength="30" />
+    <Property Name="CODPROV" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="CODTIPOPROD" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="CODREP" Type="char" MaxLength="5" />
+    <Property Name="USEREXPORT" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="FLGIMPORT" Type="int" />
+    <Property Name="FLGVALIDATE" Type="int" />
+  </EntityType>
+  <EntityType Name="PDMT_DIBA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDEXPORT" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CODPROG" Type="char" MaxLength="25" Nullable="false" />
+    <Property Name="CODPADRE" Type="char" MaxLength="25" />
+    <Property Name="CODFIGLIO" Type="char" MaxLength="25" Nullable="false" />
+    <Property Name="QTA" Type="decimal" Precision="14" Scale="6" Nullable="false" />
+    <Property Name="TREEDEPTH" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="LEVEL" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="USEREXPORT" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="AlypdmModelStoreContainer">
+    <EntitySet Name="PDMT_ANAGART" EntityType="Self.PDMT_ANAGART" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PDMT_DIBA" EntityType="Self.PDMT_DIBA" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

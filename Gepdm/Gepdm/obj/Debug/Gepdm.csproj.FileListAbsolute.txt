@@ -23,3 +23,9 @@ C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Debug\Gepdm.pdb
 C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\Gepdm.exe.config
 C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\Gepdm.exe
 C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\Gepdm.pdb
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\EntityFramework.dll
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\EntityFramework.xml
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\bin\Debug\it\EntityFramework.resources.dll
+C:\Users\user06\Desktop\Github\Gepdm\Gepdm\Gepdm\obj\Debug\Gepdm.csproj.CopyComplete

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AlypdmModelStoreContainer" CdmEntityContainer="AlypdmEntities">
+    <EntitySetMapping Name="PDMT_ANAGART">
+      <EntityTypeMapping TypeName="AlypdmModel.PDMT_ANAGART">
+        <MappingFragment StoreEntitySet="PDMT_ANAGART">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDEXPORT" ColumnName="IDEXPORT" />
+          <ScalarProperty Name="CODART" ColumnName="CODART" />
+          <ScalarProperty Name="DESCART" ColumnName="DESCART" />
+          <ScalarProperty Name="DESCARTEST" ColumnName="DESCARTEST" />
+          <ScalarProperty Name="UM1" ColumnName="UM1" />
+          <ScalarProperty Name="CODFAM" ColumnName="CODFAM" />
+          <ScalarProperty Name="DESCFAM" ColumnName="DESCFAM" />
+          <ScalarProperty Name="CODSFAM" ColumnName="CODSFAM" />
+          <ScalarProperty Name="DESCSFAM" ColumnName="DESCSFAM" />
+          <ScalarProperty Name="CODGRUPPO" ColumnName="CODGRUPPO" />
+          <ScalarProperty Name="DESCGRUPPO" ColumnName="DESCGRUPPO" />
+          <ScalarProperty Name="CODSGRUPPO" ColumnName="CODSGRUPPO" />
+          <ScalarProperty Name="DESCSGRUPPO" ColumnName="DESCSGRUPPO" />
+          <ScalarProperty Name="CODPROV" ColumnName="CODPROV" />
+          <ScalarProperty Name="CODTIPOPROD" ColumnName="CODTIPOPROD" />
+          <ScalarProperty Name="CODREP" ColumnName="CODREP" />
+          <ScalarProperty Name="USEREXPORT" ColumnName="USEREXPORT" />
+          <ScalarProperty Name="FLGIMPORT" ColumnName="FLGIMPORT" />
+          <ScalarProperty Name="FLGVALIDATE" ColumnName="FLGVALIDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PDMT_DIBA">
+      <EntityTypeMapping TypeName="AlypdmModel.PDMT_DIBA">
+        <MappingFragment StoreEntitySet="PDMT_DIBA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDEXPORT" ColumnName="IDEXPORT" />
+          <ScalarProperty Name="CODPROG" ColumnName="CODPROG" />
+          <ScalarProperty Name="CODPADRE" ColumnName="CODPADRE" />
+          <ScalarProperty Name="CODFIGLIO" ColumnName="CODFIGLIO" />
+          <ScalarProperty Name="QTA" ColumnName="QTA" />
+          <ScalarProperty Name="TREEDEPTH" ColumnName="TREEDEPTH" />
+          <ScalarProperty Name="LEVEL" ColumnName="LEVEL" />
+          <ScalarProperty Name="USEREXPORT" ColumnName="USEREXPORT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

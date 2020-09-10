@@ -14,26 +14,32 @@ namespace Gepdm
     {
         static void Main(string[] args)
         {
-            string sLog = "INIZIO ELABORAZIONE";
+            string sLog = "----------------------------------------------------------";
             Logger logger = new Logger();
             logger.Log(sLog);
 
-            var fn = new Function();
-            bool bElabora = fn.Elabora();
-            
-            if (bElabora)
-            {
-                sLog = "FINE ELABORAZIONE TERMINATA CON SUCCESSO";
-                logger = new Logger();
-                logger.Log(sLog);
+            sLog = "INIZIO ELABORAZIONE";
+            logger = new Logger();
+            logger.Log(sLog);
 
-            }
-            else
-            {
-                sLog = "FINE ELABORAZIONE NON TERMINATA CON SUCCESSO - ERRORE";
-                logger = new Logger();
-                logger.Log(sLog);
-            }
+            sLog = "";
+            logger = new Logger();
+            logger.Log(sLog);
+
+            var fn = new Function();
+            fn.Elabora();
+
+            sLog = "";
+            logger = new Logger();
+            logger.Log(sLog);
+
+            sLog = "FINE ELABORAZIONE";
+            logger = new Logger();
+            logger.Log(sLog);
+
+            sLog = "----------------------------------------------------------";
+            logger = new Logger();
+            logger.Log(sLog);
 
         }
 

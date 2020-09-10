@@ -47,3 +47,169 @@ Log Entry | 18:03:53 giovedì 6 agosto 2020: Fine lettura parametri
 Log Entry | 18:05:08 giovedì 6 agosto 2020: INIZIO ELABORAZIONE
 Log Entry | 18:05:12 giovedì 6 agosto 2020: Inizio lettura parametri
 Log Entry | 18:05:12 giovedì 6 agosto 2020: Fine lettura parametri
+Log Entry | 15:06:50 martedì 1 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 15:07:20 martedì 1 settembre 2020: Inizio lettura dati database
+Log Entry | 15:07:39 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 15:08:44 martedì 1 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 15:08:50 martedì 1 settembre 2020: Inizio lettura dati database
+Log Entry | 15:08:55 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 15:08:55 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 15:28:43 martedì 1 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 15:30:12 martedì 1 settembre 2020: Inizio lettura dati database
+Log Entry | 15:30:19 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 15:30:19 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 19:48:56 martedì 1 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 19:49:51 martedì 1 settembre 2020: Inizio lettura dati database
+Log Entry | 19:50:14 martedì 1 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 19:50:50 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 19:51:14 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 19:51:56 martedì 1 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 19:53:14 martedì 1 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 19:53:20 martedì 1 settembre 2020: Inizio lettura dati database
+Log Entry | 19:53:20 martedì 1 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 19:53:20 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 19:53:20 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 19:53:20 martedì 1 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 19:53:40 martedì 1 settembre 2020: Inizio lettura dati da IDEXPORT = 20200707105236
+Log Entry | 19:54:19 martedì 1 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 19:54:25 martedì 1 settembre 2020: Inizio lettura dati database
+Log Entry | 19:54:26 martedì 1 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 19:54:26 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 19:54:26 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 19:54:26 martedì 1 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 19:54:37 martedì 1 settembre 2020: Inizio lettura dati da IDEXPORT = 20200707105236
+Log Entry | 19:54:48 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 19:54:48 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 19:56:56 martedì 1 settembre 2020: Fine lettura dati da IDEXPORT = 20200707105236
+Log Entry | 19:59:40 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 19:59:45 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 20:12:54 martedì 1 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 20:13:00 martedì 1 settembre 2020: Inizio lettura dati database
+Log Entry | 20:13:00 martedì 1 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 20:13:00 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 20:13:00 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 20:13:00 martedì 1 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 20:13:00 martedì 1 settembre 2020: Inizio lettura dati da IDEXPORT = 20200707105236
+Log Entry | 20:13:00 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 20:13:00 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 20:13:01 martedì 1 settembre 2020: Fine lettura dati da IDEXPORT = 20200707105236
+Log Entry | 20:13:34 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 20:13:34 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 20:27:16 martedì 1 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 20:27:38 martedì 1 settembre 2020: Inizio lettura dati database
+Log Entry | 20:27:43 martedì 1 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 20:27:56 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 20:27:56 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 20:37:03 martedì 1 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 20:37:03 martedì 1 settembre 2020: Inizio lettura dati da IDEXPORT = 20200707105236
+Log Entry | 20:37:03 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 20:37:03 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 20:37:03 martedì 1 settembre 2020: Fine lettura dati da IDEXPORT = 20200707105236
+Log Entry | 20:37:30 martedì 1 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 20:37:38 martedì 1 settembre 2020: Inizio lettura dati database
+Log Entry | 20:37:38 martedì 1 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 20:37:38 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 20:37:39 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 20:37:39 martedì 1 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 20:37:39 martedì 1 settembre 2020: Inizio lettura dati da IDEXPORT = 20200707105236
+Log Entry | 20:37:39 martedì 1 settembre 2020: Inizio lettura parametri
+Log Entry | 20:37:39 martedì 1 settembre 2020: Fine lettura parametri
+Log Entry | 14:38:29 mercoledì 2 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 14:38:46 mercoledì 2 settembre 2020: Inizio lettura dati database
+Log Entry | 14:39:10 mercoledì 2 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 15:08:35 mercoledì 2 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 15:09:19 mercoledì 2 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 15:09:29 mercoledì 2 settembre 2020: Inizio lettura dati database
+Log Entry | 15:09:41 mercoledì 2 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 15:18:45 mercoledì 2 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 17:38:45 giovedì 3 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 17:38:57 giovedì 3 settembre 2020: Inizio lettura dati database
+Log Entry | 17:38:57 giovedì 3 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 17:49:17 giovedì 3 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 17:49:56 giovedì 3 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 17:50:03 giovedì 3 settembre 2020: Inizio lettura dati database
+Log Entry | 17:50:19 giovedì 3 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 12:58:11 venerdì 4 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 12:58:18 venerdì 4 settembre 2020: Inizio lettura dati database
+Log Entry | 12:58:20 venerdì 4 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 12:58:21 venerdì 4 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 13:00:37 venerdì 4 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 13:00:52 venerdì 4 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 13:04:31 venerdì 4 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 13:04:36 venerdì 4 settembre 2020: Inizio lettura dati database
+Log Entry | 13:04:38 venerdì 4 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 13:04:39 venerdì 4 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 13:04:46 venerdì 4 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 13:04:49 venerdì 4 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 09:27:13 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 09:31:05 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 09:32:50 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 09:35:57 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 09:43:03 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 09:44:16 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 09:46:50 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 09:47:44 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 09:48:03 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 10:30:50 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 10:31:56 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 10:35:49 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 10:36:23 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 10:37:43 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 10:43:10 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 10:59:06 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 11:04:42 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 12:08:43 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 12:12:03 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 12:14:35 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 12:14:59 mercoledì 9 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 12:15:08 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 12:15:17 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 16:35:09 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 16:35:26 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 16:35:33 mercoledì 9 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 16:36:31 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 16:36:34 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 16:40:29 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 16:40:30 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 16:40:46 mercoledì 9 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 16:41:00 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 16:41:05 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 16:51:10 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 16:51:16 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 16:51:20 mercoledì 9 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 16:51:24 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 16:51:28 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 17:09:48 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 17:09:53 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 17:09:57 mercoledì 9 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 17:10:03 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 17:10:06 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 17:15:53 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 17:40:10 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 17:40:17 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 17:40:21 mercoledì 9 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 17:40:28 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 17:40:30 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 17:50:56 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 17:51:00 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 17:51:01 mercoledì 9 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 17:51:06 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 17:51:06 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 17:53:05 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200707094755
+Log Entry | 17:53:05 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200707094755
+Log Entry | 18:05:16 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 18:05:23 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 18:05:24 mercoledì 9 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 18:05:28 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200618090735
+Log Entry | 18:05:29 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200618090735
+Log Entry | 18:08:12 mercoledì 9 settembre 2020: INIZIO ELABORAZIONE
+Log Entry | 18:08:15 mercoledì 9 settembre 2020: Inizio lettura IDEXPORT
+Log Entry | 18:08:17 mercoledì 9 settembre 2020: Fine lettura IDEXPORT
+Log Entry | 18:08:17 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200707094755
+Log Entry | 18:08:17 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200707094755
+Log Entry | 18:08:17 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200707104205
+Log Entry | 18:08:17 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200707104205
+Log Entry | 18:08:17 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200707105236
+Log Entry | 18:08:17 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200707105236
+Log Entry | 18:08:29 mercoledì 9 settembre 2020: Inizio lettura dati da IDEXPORT = 20200714124909
+Log Entry | 18:08:29 mercoledì 9 settembre 2020: Fine lettura dati da IDEXPORT = 20200714124909
